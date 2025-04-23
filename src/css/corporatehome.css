@@ -1,0 +1,59 @@
+/* Corporate Home Navbar Styling */
+.navbar {
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  /* Make all nav links white */
+  .navbar-nav .nav-link,
+  .navbar-nav .dropdown-toggle {
+    font-weight: bold;
+    color: white !important;
+  }
+  
+  /* Hover effect */
+  .navbar-nav .nav-link:hover,
+  .navbar-nav .dropdown-toggle:hover {
+    color: #f8f9fa !important; /* Slightly lighter white if desired */
+  }
+  
+  .navbar-brand {
+    font-size: 1.5rem;
+    color: white !important;
+  }
+  
+  button {
+    margin-left: 10px;
+  }
+  
+  /* Remove default dark text color from Bootstrap navbar-light */
+  .navbar-light .navbar-nav .nav-link,
+  .navbar-light .navbar-brand,
+  .navbar-light .dropdown-toggle {
+    color: white !important;
+  }
+  /* corporatehome.css */
+.square-card {
+    border: 1px solid #00cfff;
+    border-radius: 8px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+  }
+  
+  .square-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 207, 255, 0.2);
+  }
+  
+  .square-card .card-title {
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 0.5rem;
+  }
+  
+  .square-card .card-text {
+    text-align: center;
+    color: #555;
+  }
+  
+ 
+  

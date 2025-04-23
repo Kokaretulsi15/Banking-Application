@@ -1,0 +1,48 @@
+/* src/css/navbar.css */
+.custom-navbar {
+    background-color: #00CFFB !important; /* Bright cyan */
+    padding: 10px 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .custom-navbar .navbar-brand {
+    font-weight: bold;
+    font-size: 24px;
+    color: white !important;
+  }
+  
+  .custom-navbar .nav-link {
+    color: white !important;
+    margin-right: 15px;
+    font-weight: 500;
+    transition: color 0.2s ease-in-out;
+  }
+  
+  .custom-navbar .nav-link:hover {
+    color: #004b6b !important;
+  }
+  
+  .custom-navbar .dropdown-menu {
+    background-color: #f8f9fa;
+    border-radius: 8px;
+  }
+  
+  .custom-navbar .dropdown-item:hover {
+    background-color: #e2f3f5;
+  }
+  
+  .custom-navbar .form-control {
+    width: 200px;
+  }
+  
+  .custom-navbar .btn-outline-success {
+    border-color: white;
+    color: white;
+  }
+  
+  .custom-navbar .btn-outline-success:hover {
+    background-color: white;
+    color: #00CFFB;
+    border-color: white;
+  }
+  
